@@ -1,4 +1,5 @@
 # TEAM-HOPE
+# Shubham, Raunak, Tanushree, Kabir, Reet, Arhum
 SIH Hackathon by Team HOPE SIH Problem Statement SIH26086
 The Indian Summer Monsoon dictates the economic livelihood of millions of farmers, particularly during the Kharif sowing season. While macro-scale monsoon forecasts across large meteorological subdivisions have improved, Indian agriculture remains highly vulnerable to the unpredictable nature of intra-seasonal variations. Specifically, the exact dates of monsoon onset,prolonged dry spells (break-monsoon phases), and subsequent revival cycles vary drastically from one district to another.
 
