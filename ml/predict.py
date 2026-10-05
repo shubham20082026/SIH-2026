@@ -86,17 +86,6 @@ def predict_onset(station_id: str, year: int, df: pd.DataFrame = None) -> dict:
         "confidence_high": day_of_year_to_date(high_day, year),
     }
 
-    X = pd.DataFrame([features])[FEATURE_COLS]
-    pred_day = _model.predict(X)[0]
-    low_day = _model_low.predict(X)[0]
-    high_day = _model_high.predict(X)[0]
-
-    return {
-        "station_id": station_id,
-        "predicted_onset_date": day_of_year_to_date(pred_day, year),
-        "confidence_low": day_of_year_to_date(low_day, year),
-        "confidence_high": day_of_year_to_date(high_day, year),
-    }
 
 
 def predict_break_risk(station_id: str, year: int, as_of_day: int, df: pd.DataFrame = None,

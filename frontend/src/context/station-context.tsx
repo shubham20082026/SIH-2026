@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, type ReactNode } from 'react';
 
-const DEFAULT_STATION = 'KC1GHSN557';
+const DEFAULT_STATION = 'KA001';
 
 type StationContextType = {
   stationId: string;

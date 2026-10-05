@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import sys, os
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "ml"))
+sys.path.append(os.path.dirname(__file__))
 from predict import predict_onset, predict_break_risk
 from build_labels import load_real_data
 from advisory_engine import get_advisory
